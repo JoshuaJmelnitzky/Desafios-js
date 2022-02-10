@@ -1,0 +1,42 @@
+@import "mixin";
+
+.preguntas__help, .contacto__help{
+    h2{
+        @extend .justifyAlign--center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .preguntas__texto {
+        color: grey;
+        font-size: 15px;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        div{
+            margin-bottom: 30px;
+            span{
+                color: #90C512 !important;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .ayudaContacto{
+        @extend .justifyAlign--center;
+        flex-wrap: wrap;
+        margin-bottom: 70px;
+        div{
+            @extend .justifyAlign--spaceEvenly;
+            margin: 25px;
+        }
+    }
+    
+}
+
+
+
+

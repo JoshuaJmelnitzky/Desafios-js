@@ -1,0 +1,97 @@
+@media only screen and (min-width:0px) and (max-width:767px){
+    .carousel-inner div img{
+        height: 250px;
+}
+
+.brandFlex img{
+    width: 80px;
+    height: 40px;
+}
+
+.ofertas{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    padding-left: 50px;
+}
+
+
+.texto{
+    font-size: 20px;
+}
+
+.ofertas p{
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+.containers div, .containers{
+    padding-bottom: 10px;
+}
+
+img#optional{
+    display: none;
+}
+
+
+.navbar-collapse {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 123%;
+    transition: all .1s ease;
+    display: block;
+}
+
+.navbar-collapse.collapsing {
+    height: auto !important;
+    margin-left: 0;
+    right: 150px;
+}
+
+.navbar-collapse.show {
+    right: 0%;
+}
+
+.nav__order{
+    order: -1;
+}
+
+}
+
+
+@media only screen and (min-width:767px){
+    header p{
+    display: none;
+}
+
+.main__info--img img{
+    height: 60px;
+    margin-top: 60px;
+}
+
+.main__info--txt{
+    padding-top: 20px;
+    justify-content: space-evenly;
+    position: relative;
+    right: 30px;
+}
+
+#imgSize{
+    width: 160px;
+}
+
+.nav__collapseButton{
+    display: none;
+}
+
+.search-container-mobile{
+    display: none;
+}
+
+}
+
+

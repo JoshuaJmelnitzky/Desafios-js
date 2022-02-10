@@ -1,0 +1,107 @@
+@import "mixin";
+
+.clientes{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    input{
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        &:focus{
+            border: 2px solid black;
+            font-size: 18px;       
+        }
+    }
+    .logIn{
+        margin-top: 20px;
+        div{
+            .logIn__button{
+                @include background__border(#0071c9, 1px solid  #0071c9);
+            }       
+            .fb__button{
+                @include background__border(#3b5998, 1px solid #3b5998);
+                @extend .justifyAlign--center;
+                align-items: center;
+            }
+            .google__button{
+                @include background__border(#dd4b39, 1px solid #dd4b39);
+                @extend .justifyAlign--center;
+                align-items: center;
+            }
+        }
+        button{
+            @include size(320px, 40px);
+            color: #fff;    
+            font-size: 13px;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+        span{
+            margin-right: 10px;
+            font-weight: 900;
+            font-size: 16px;
+            font-family: 'Lato', sans-serif;
+        }
+    }
+
+    .cliente__campos div{   
+        width: 320px;
+    }
+
+    .new__cliente{
+        padding-top: 40px;
+        form{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            div{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 30px;
+            }             
+        }
+    
+        .checkbox{
+            margin-top: 30px;
+            text-align: center;
+            display: inline;
+        }
+    }
+
+    .old__cliente{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        form{
+            flex-direction: column;
+            div{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 30px;
+                justify-content: space-around;
+            }
+        }
+    }   
+}
+
+.clientes__subtitle--sizeOld{
+        width: 60%;
+        @media only screen and (max-width:767px){
+            width: 90%;
+        }
+}
+
+.clientes__subtitle--sizeNew{
+        width: 100%;
+        @media only screen and (max-width:767px){
+            width: 90%;
+        }
+}
+
+.clientes__subtitle--padding{
+        margin-bottom: 40px;
+}
+
+
+
+

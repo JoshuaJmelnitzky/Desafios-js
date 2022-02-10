@@ -1,0 +1,47 @@
+.error{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    img{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    @media only screen and (min-width:767px){
+        img{
+            margin-right: 30px;
+        }
+    }
+
+    @media only screen and (max-width:767px){
+        img{
+            margin-right: 30px;
+            width: 80%;
+            margin-left: 30px;
+        }
+    }
+    
+    h1, h2{
+        font-size: 60px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        display: absolute;
+    }
+    h2{
+        font-size: 80px;
+    }
+
+    .error__parrafo{
+        div{
+            font-weight: bold;
+            a{
+                color: #90C512 
+            }
+        }
+    }
+}
+

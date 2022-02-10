@@ -1,0 +1,18 @@
+ $linksSize: 18px;
+ $titleSize: 50px;
+
+.nav__listas{
+    .nav__links{
+        font-size: $linksSize;
+        .nav__links__h1 { 
+            font-size: $titleSize;    
+        }
+    }
+}
+
+footer h3{
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
