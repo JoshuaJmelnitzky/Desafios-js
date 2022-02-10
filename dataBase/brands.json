@@ -1,0 +1,59 @@
+{
+    "brand1":{
+        "id": 1,
+        "brand": "Aorus",
+        "photo": "./assets/img/brands/aorus_logo_back.jpg"
+    },
+
+
+    "brand2":{
+        "id": 2,
+        "brand": "Corsair",
+        "photo": "./assets/img/brands/corsair_logo_back.jpg"
+    },
+
+
+    "brand3":{
+        "id": 3,
+        "brand": "MSI",
+        "photo": "./assets/img/brands/msi_logo_back.jpg"
+    },
+
+
+    "brand4":{
+        "id": 4,
+        "brand": "Republic of Gamers",
+        "photo": "./assets/img/brands/asus_rog_logo_back.jpg"
+    },
+
+
+    "brand5":{
+        "id": 5,
+        "brand": "AMD",
+        "photo": "./assets/img/brands/amd_logo_back.png"
+    },
+
+
+    "brand6":{
+        "id": 6,
+        "brand": "Intel",
+        "photo": "./assets/img/brands/Intel_logo_back.png"
+    },
+
+
+    
+    "brand7":{
+        "id": 7,
+        "brand": "Razer",
+        "photo": "./assets/img/brands/razer_logo_back.jpg"
+    },
+
+
+    "brand8":{
+        "id": 8,
+        "brand": "Noctua",
+        "photo": "./assets/img/brands/noctua_logo_back.png"
+    }
+}
+
+

@@ -1,0 +1,424 @@
+{
+    "product1": {
+        "id": 1,
+        "productCategory": "processor",
+        "productBrand": "AMD",
+        "productName" : "Ryzen 5 5600x",
+        "productPrice": 39000,
+        "productStock": 5,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/procesadores/ryzen5_5600x.jpg",
+            "photo2": "./assets/img/products/procesadores/ryzen5_5600x_2.jpg"
+        }
+    },
+
+
+    "product2": {
+        "id": 2,
+        "productCategory": "processor",
+        "productBrand": "AMD",
+        "productName" : "Ryzen 7 5800x",
+        "productPrice": 53000,
+        "productStock": 4,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/procesadores/ryzen7_5800x.jpg",
+            "photo2": "./assets/img/products/procesadores/ryzen7_5800x_2.jpg"
+        }
+    },
+
+
+    "product3": {
+        "id": 3,
+        "productCategory": "processor",
+        "productBrand": "Intel",
+        "productName" : "i9-9900K",
+        "productPrice": 60000,
+        "productStock": 2,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/procesadores/i9_9900k.jpg",
+            "photo2": "./assets/img/products/procesadores/i9_9900k_2.jpg"
+        }
+    },
+
+
+    "product4": {
+        "id": 4,
+        "productCategory": "processor",
+        "productBrand": "Intel",
+        "productName" : "i5-9400f",
+        "productPrice": 35999,
+        "productStock": 5,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/procesadores/i5_9400f.jpg",
+            "photo2": "./assets/img/products/procesadores/i5_9400f_2.jpg"
+        }
+    }, 
+    
+
+    "product5": {
+        "id": 5,
+        "productCategory": "processor",
+        "productBrand": "Intel",
+        "productName" : "i7-10700",
+        "productPrice": 46980,
+        "productStock": 4,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/procesadores/i7_10th.jpg",
+            "photo2": "./assets/img/products/procesadores/i7_10th_2.jpg"
+        }
+    },
+
+
+    "product6": {
+        "id": 6,
+        "productCategory": "processor",
+        "productBrand": "Intel",
+        "productName" : "i9-11900",
+        "productPrice": 87399,
+        "productStock": 2,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/procesadores/i9_11th.jpg",
+            "photo2": "./assets/img/products/procesadores/i9_11th_2.jpg"
+        }
+    },
+
+
+    "product7": {
+        "id": 7,
+        "productCategory": "processor",
+        "productBrand": "AMD",
+        "productName" : "Ryzen 9 5950x",
+        "productPrice": 110400,
+        "productStock": 2,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/procesadores/ryzen9_5950x.jpg",
+            "photo2": "./assets/img/products/procesadores/ryzen9_5950x_2.jpg"
+        }
+    },
+
+
+    "product8": {
+        "id": 8,
+        "productCategory": "ram memory",
+        "productBrand": "G-Skill",
+        "productName" : "Trident-z 2x8gb",
+        "productPrice": 25500,
+        "productStock": 15,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/ram/trident_z_royale.jpg",
+            "photo2": "./assets/img/products/ram/trident_z_royale_2.jpg"
+        }
+    },
+
+
+    "product9": {
+        "id": 9,
+        "productCategory": "ram memory",
+        "productBrand": "Patriot",
+        "productName" : "Viper 3200mhz 16gb",
+        "productPrice": 10000,
+        "productStock": 12,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/ram/patriot_viper.jpg",
+            "photo2": "./assets/img/products/ram/patriot_viper_2.jpg"
+        }
+    },
+
+
+    "product10": {
+        "id": 10,
+        "productCategory": "ram memory",
+        "productBrand": "Adata",
+        "productName" : "Spectrix D50 3600mhz 8gb",
+        "productPrice": 7500,
+        "productStock": 20,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/ram/adata_spectrix_d50.jpg",
+            "photo2": "./assets/img/products/ram/adata_spectrix_d50_2.jpg"
+        }
+    },
+
+    "product11": {
+        "id": 11,
+        "productCategory": "motherboard",
+        "productBrand": "Asus",
+        "productName" : "ROG B550-F",
+        "productPrice": 14000,
+        "productStock": 4,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/motherboard/rog_b550-f.jpg",
+            "photo2": "./assets/img/products/motherboard/rog_b550-f_2.jpg"
+        }
+    },
+
+
+    "product12": {
+        "id": 12,
+        "productCategory": "motherboard",
+        "productBrand": "Asus",
+        "productName" : "TUF B560b-plus",
+        "productPrice": 15500,
+        "productStock": 5,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/motherboard/asus_tuf_b560.jpg",
+            "photo2": "./assets/img/products/motherboard/asus_tuf_b560_2.jpg"
+        }
+    },
+
+
+    "product13": {
+        "id": 13,
+        "productCategory": "motherboard",
+        "productBrand": "MSI",
+        "productName" : "Aorus x570",
+        "productPrice": 17500,
+        "productStock": 3,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/motherboard/aorus_x570.jpg",
+            "photo2": "./assets/img/products/motherboard/aorus_x570_2.jpg"
+        }
+    },
+
+    
+    "product14": {
+        "id": 14,
+        "productCategory": "gpu card",
+        "productBrand": "Palit",
+        "productName" : "GTX 1660",
+        "productPrice": 120000,
+        "productStock": 10,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/gpu/palit_1660.jpg",
+            "photo2": "./assets/img/products/gpu/palit_1660_2.jpg"
+        }
+    },
+
+
+    "product15": {
+        "id": 15,
+        "productCategory": "gpu card",
+        "productBrand": "Asus",
+        "productName" : "Strix RTX 3070",
+        "productPrice": 200000,
+        "productStock": 8,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/gpu/rog_3070.jpg",
+            "photo2": "./assets/img/products/gpu/rog_3070_2.jpg"
+        }
+    },
+
+
+    "product16": {
+        "id": 16,
+        "productCategory": "gpu card",
+        "productBrand": "MSI",
+        "productName" : "Radeon RX 6700",
+        "productPrice": 180000,
+        "productStock": 6,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/gpu/aorus_xtreme_3080.jpg",
+            "photo2": "./assets/img/products/gpu/aorus_xtreme_3080_2.jpg"
+        }
+    },
+
+
+    "product17": {
+        "id": 17,
+        "productCategory": "monitor",
+        "productBrand": "Dell",
+        "productName" : "Alienware aw2521",
+        "productPrice": 130500,
+        "productStock": 4,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/monitores/alienware_Aw2521.png",
+            "photo2": "./assets/img/products/monitores/alienware_Aw2521_2.jpg"
+        }
+    },
+
+    
+    "product18": {
+        "id": 18,
+        "productCategory": "monitor",
+        "productBrand": "MSI",
+        "productName" : "Aourus kd25f",
+        "productPrice": 100500,
+        "productStock": 5,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/monitores/aorus_kd25f.jpg",
+            "photo2": "./assets/img/products/monitores/aorus_kd25f_2.jpg"
+        }
+    },
+
+
+        
+    "product19": {
+        "id": 19,
+        "productCategory": "monitor",
+        "productBrand": "LG",
+        "productName" : "32gn500",
+        "productPrice": 75000,
+        "productStock": 3,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/monitores/lg_32gn500.webp",
+            "photo2": "./assets/img/products/monitores/lg_32gn500_2.webp"
+        }
+    },
+
+
+    "product20": {
+        "id": 20,
+        "productCategory": "monitor",
+        "productBrand": "Redragon",
+        "productName" : "ruby",
+        "productPrice": 42500,
+        "productStock": 8,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/monitores/redragon_ruby.jpg",
+            "photo2": "./assets/img/products/monitores/redragon_ruby_2.jpg"
+        }
+    },
+
+
+    "product21": {
+        "id": 21,
+        "productCategory": "monitor",
+        "productBrand": "Asus",
+        "productName" : "rog xg279q",
+        "productPrice": 112000,
+        "productStock": 5,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/monitores/rog_xg279q.png",
+            "photo2": "./assets/img/products/monitores/rog_xg279q_2.png"
+        }
+    },
+
+
+    "product22": {
+        "id": 22,
+        "productCategory": "monitor",
+        "productBrand": "Samsung",
+        "productName" : "C24RG50",
+        "productPrice": 60000,
+        "productStock": 4,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/monitores/samsung_c24rg50.webp",
+            "photo2": "./assets/img/products/monitores/samsung_c24rg50_2.webp"
+        }
+    },
+
+
+    "product23": {
+        "id": 23,
+        "productCategory": "monitor",
+        "productBrand": "BenQ",
+        "productName" : "XL2546",
+        "productPrice": 125000,
+        "productStock": 3,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/monitores/zowie_2546.webp",
+            "photo2": "./assets/img/products/monitores/zowie_2546_2.png"
+        }
+    },
+
+
+    
+    "product24": {
+        "id": 24,
+        "productCategory": "case",
+        "productBrand": "Azza",
+        "productName" : "Apollo 430",
+        "productPrice": 6699,
+        "productStock": 8,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/gabinetes/azza_apollo-430.jpg",
+            "photo2": "./assets/img/products/gabinetes/azza_apollo-430_2.jpg"
+        }
+    }, 
+
+
+    "product25": {
+        "id": 25,
+        "productCategory": "case",
+        "productBrand": "Azza",
+        "productName" : "Pyramid",
+        "productPrice": 53999,
+        "productStock": 3,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/gabinetes/azza_pyramid.png",
+            "photo2": "./assets/img/products/gabinetes/azza_pyramid_2.png"
+        }
+    },
+
+
+    "product26": {
+        "id": 26,
+        "productCategory": "case",
+        "productBrand": "Corsair",
+        "productName" : "570X",
+        "productPrice": 23375,
+        "productStock": 4,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/gabinetes/corsair_570x.webp",
+            "photo2": "./assets/img/products/gabinetes/corsair_570x_2.webp"
+        }
+    },
+
+
+    "product27": {
+        "id": 27,
+        "productCategory": "case",
+        "productBrand": "Corsair",
+        "productName" : "4000X",
+        "productPrice": 15725,
+        "productStock": 2,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/gabinetes/corsair_4000x.png",
+            "photo2": "./assets/img/products/gabinetes/corsair_4000x_2.jpg"
+        }
+    }, 
+
+
+    "product28": {
+        "id": 28,
+        "productCategory": "case",
+        "productBrand": "Cougar",
+        "productName" : "Conquer",
+        "productPrice": 43200,
+        "productStock": 5,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/gabinetes/cougar_conquer.png",
+            "photo2": "./assets/img/products/gabinetes/cougar_conquer_2.png"
+        }
+    },
+
+
+    "product29": {
+        "id": 29,
+        "productCategory": "case",
+        "productBrand": "Lian-li",
+        "productName" : "pc-011-dynamic",
+        "productPrice": 49500,
+        "productStock": 3,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/gabinetes/lianli_pc-011-dynamic.jpg",
+            "photo2": "./assets/img/products/gabinetes/lianli_pc-011-dynamic_2.jpg"
+        }
+    },
+
+
+    "product30": {
+        "id": 30,
+        "productCategory": "case",
+        "productBrand": "NZXT",
+        "productName" : "H510",
+        "productPrice": 41325,
+        "productStock": 6,
+        "productPhoto": {
+            "photo1":  "./assets/img/products/gabinetes/nzxt_h510.jpg",
+            "photo2": "./assets/img/products/gabinetes/nzxt_h510_2.webp"
+        }
+    }
+
+}
+
+

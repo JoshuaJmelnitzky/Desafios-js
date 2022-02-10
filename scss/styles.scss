@@ -5,7 +5,8 @@
 @import "help";
 @import "productsStyles";
 @import "mixin";
-@import "error";s
+@import "error";
+@import "cart";
 
 *{
     list-style: none;
@@ -22,7 +23,7 @@
 }
 
 
-a:hover{
+.footer__info a:hover{
     text-decoration: none;
     color:#eee !important
 }
@@ -57,6 +58,16 @@ a:hover{
         }
 }
 
+.cart a{
+    font-size: 30px;
+    margin-left: 25px;
+    color: white;
+    filter: brightness(1.25);
+}
+
+.cart a:hover{
+    color: #90c512;
+}
 
 .subtitle--width{
     width: 100%;
