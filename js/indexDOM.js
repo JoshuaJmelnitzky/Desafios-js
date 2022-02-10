@@ -45,8 +45,8 @@ $.get(URLProductsJson, function(response, status){
                     <div class="product">
                         <div class = "product-image">
                             <a href class = "image">
-                                <img src=${productsCategory[j].productPhoto.photo1} class = "pic-1" alt= "${productsCategory[j].productBrand} ${productsCategory[j].productName}">
-                                <img src=${productsCategory[j].productPhoto.photo2} class = "pic-2" alt= "${productsCategory[j].productBrand} ${productsCategory[j].productName}">
+                                <img src=.${productsCategory[j].productPhoto.photo1} class = "pic-1" alt= "${productsCategory[j].productBrand} ${productsCategory[j].productName}">
+                                <img src=.${productsCategory[j].productPhoto.photo2} class = "pic-2" alt= "${productsCategory[j].productBrand} ${productsCategory[j].productName}">
                             </a>
         
                             <p class="cart addCartButton" id="${productsCategory[j].id}">Añadir al carrito</p>
