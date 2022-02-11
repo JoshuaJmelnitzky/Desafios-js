@@ -230,8 +230,8 @@
         "productPrice": 130500,
         "productStock": 4,
         "productPhoto": {
-            "photo1":  "./assets/img/products/monitores/alienware_Aw2521.png",
-            "photo2": "./assets/img/products/monitores/alienware_Aw2521_2.jpg"
+            "photo1":  "./assets/img/products/monitores/alienware_aw2521.png",
+            "photo2": "./assets/img/products/monitores/alienware_aw2521_2.jpg"
         }
     },
 
