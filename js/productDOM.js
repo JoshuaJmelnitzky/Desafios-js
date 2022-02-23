@@ -195,7 +195,7 @@ $(()=>{
 
                             const id = cartStorage.findIndex(i => i.id === selected.id)
 
-                            id === -1? cartStorage.push(selected): console.log(cartStorage[id].qty++)
+                            id === -1? cartStorage.push(selected): cartStorage[id].qty++
 
                             saveLocal('Product', JSON.stringify(cartStorage));
                             
