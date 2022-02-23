@@ -8,6 +8,7 @@ https://joshuajmelnitzky.github.io/desafios-JS/
 - Permite mostrar productos traidos de un archivo JSON.
 - Mostrar productos por categoría.
 - Añadir productos al carrito.
+- Si el producto a añadir ya existe en el carrito, incrementa su cantidad y no crea un elemento nuevo.
 - Buscar productos por parte del nombre, refrescandose en tiempo real.
 - Filtrar por precios, mostrando resultados en tiempo real.
 
