@@ -220,7 +220,8 @@ footer h3 {
   font-size: 15px;
   font-family: 'Montserrat', sans-serif; }
   .clasificacion__item ul li:hover {
-    font-weight: bold; }
+    font-weight: bold;
+    cursor: pointer; }
 
 .clasificacion__border {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -244,6 +245,23 @@ footer h3 {
 
 .visibility {
   display: none; }
+
+.products__emptyCategory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 700px;
+  width: 100%; }
+  .products__emptyCategory i {
+    font-size: 50px; }
+  .products__emptyCategory .btn {
+    text-decoration: none;
+    color: black;
+    width: 200px; }
+    .products__emptyCategory .btn:hover {
+      box-shadow: 0 0 20px #ddd; }
 
 .error {
   height: 800px;
@@ -288,12 +306,15 @@ footer h3 {
   height: 250px; }
 
 .cart__border {
-  border: 1px solid black;
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 15px;
+  margin-top: 50px;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  box-shadow: 0 0 15px #ddd;
+  border-radius: 5px;
+  padding: 20px; }
 
 .cart__checkout {
   display: flex;

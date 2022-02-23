@@ -15,12 +15,15 @@
 
 
 .cart__border{
-    border: 1px solid black;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 15px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
+    box-shadow: 0 0 15px #ddd;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 

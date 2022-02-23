@@ -1,13 +1,16 @@
 @import "mixin";
 
+
 .productos__margin{
     margin-right: 15px;
     margin-bottom: 15px;
 }
 
+
 .product__background{
     background-color: white !important;
 }
+
 
 .clasificacion__background{
     margin-top: 50px;
@@ -16,14 +19,17 @@
     height: 1212px;
 }
 
+
 .clasificacion__mobile--justify{
     justify-content: center;
 }
+
 
 .product__border{
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
 }
+
 
 @media (min-width: 992px){
     .productos .col-lg-4 {
@@ -31,16 +37,19 @@
     }   
 }
 
+
 @media (min-width: 768px){
     .col-md-6 {
     max-width: 45%;
+    }
 }
-}
+
 
 .btn__filtrar__campos{
     opacity: .7;
     height: 35px;
 }
+
 
 .btn__filtrar{
     font-weight: bold;
@@ -51,11 +60,13 @@
     align-items: center;
 }
 
+
 .clasificacion__titulo{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 30px;
 }
+
 
 .clasificacion__item{
     font-size: 15px;
@@ -63,9 +74,11 @@
     ul li{
         &:hover{
             font-weight: bold;
+            cursor: pointer;
         }
     }
 }
+
 
 .clasificacion__border{
     border-bottom: 1px solid rgba(0,0,0,.2);
@@ -79,9 +92,11 @@
     text-align: center;
 }
 
+
 .filtros__width{
     width: 75px;
 }
+
 
 .productos__flex{
     display: flex;
@@ -91,6 +106,30 @@
     align-content: flex-start;
 }
 
+
 .visibility{
     display: none;
 }
+
+
+.products__emptyCategory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 700px;
+    width: 100%;
+    i{
+        font-size: 50px;
+    }
+    .btn{
+        text-decoration: none;
+        color: black;
+        width: 200px;   
+        &:hover{
+            box-shadow: 0 0 20px #ddd;
+        }     
+    }
+}
+

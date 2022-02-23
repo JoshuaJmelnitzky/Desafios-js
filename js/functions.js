@@ -55,7 +55,7 @@ const showMainMenu = () =>{
 
 
 /* Show a sub-menu that contains the available products into a chosen category  */
-const showProducts = (choice) => {
+const showProductsss = (choice) => {
     let menuProducts = "Elija el producto que desea agregar al carrito: \n";
     const productChoice = products.filter ((product)=>product.productItemCategory == choice)
 

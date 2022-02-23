@@ -9,7 +9,7 @@ const deleteStorage = () => {
 }
 
 itemsInCart = JSON.parse(localStorage.getItem("Product"))
-
+ 
 /* Show all products added to cart */
 if (itemsInCart && itemsInCart.length > 0){
 
