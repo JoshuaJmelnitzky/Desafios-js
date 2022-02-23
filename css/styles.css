@@ -299,6 +299,19 @@ footer h3 {
   text-align: center;
   min-height: 600px; }
 
+.cart {
+  margin-bottom: 20px; }
+
+.cartWidget {
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  background-color: green;
+  transform: translate(55px, 15px);
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px; }
+
 .cart__total {
   display: flex;
   flex-direction: column;
@@ -343,7 +356,8 @@ footer h3 {
 
 .btn__clearCart {
   background: #f64749;
-  width: 250px; }
+  width: 250px;
+  z-index: 5; }
 
 .btn__deleteItem {
   background: #f64749;

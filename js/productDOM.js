@@ -179,7 +179,8 @@ $(()=>{
 
                 $(cartButon).on('click', function (event) {
 
-                    const selected = productsData.find(product => product.id == event.target.id);
+                    let selected = productsData.find(product => product.id == event.target.id);
+                    selected = ({...selected, qty: 1})
             
                     if(selected){
                         pCart.innerText = '';
@@ -194,7 +195,7 @@ $(()=>{
 
                             const id = cartStorage.findIndex(i => i.id === selected.id)
 
-                            id === -1? cartStorage.push(selected): console.log('ya esta')
+                            id === -1? cartStorage.push(selected): console.log(cartStorage[id].qty++)
 
                             saveLocal('Product', JSON.stringify(cartStorage));
                             
@@ -207,4 +208,5 @@ $(()=>{
     })
 
 })
+
 

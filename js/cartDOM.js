@@ -1,7 +1,6 @@
 let totalPrice = 0;
 let idItem = 1;
 
-
 /* Function to clear all items in the cart */
 const deleteStorage = () => {
     localStorage.clear();
@@ -9,7 +8,7 @@ const deleteStorage = () => {
 }
 
 itemsInCart = JSON.parse(localStorage.getItem("Product"))
- 
+
 /* Show all products added to cart */
 if (itemsInCart && itemsInCart.length > 0){
 
@@ -24,8 +23,12 @@ if (itemsInCart && itemsInCart.length > 0){
                                     <li>${itemsInCart[i].productBrand} ${itemsInCart[i].productName}</li>
                                 </div>
                             
-                                <div class = "cart__price offset-md-4 col-md-2">
-                                    $${itemsInCart[i].productPrice}
+                                <div class = "cart__price offset-md-1 col-md-2">
+                                    ${itemsInCart[i].qty} unidad/es
+                                </div>
+
+                                <div class = "cart__price offset-md-1 col-md-2">
+                                    $${itemsInCart[i].productPrice * itemsInCart[i].qty}
                                 </div>
 
                                 <div class = "col-md-2">
@@ -43,10 +46,11 @@ if (itemsInCart && itemsInCart.length > 0){
                         `)
 
                         
-    $('#checkout').append(`<button id = 'btn' class = "btn btn__clearCart">Vaciar carrito<i class="fas fa-trash-alt cart__icon"></i></button>`)
+    $('#checkout').append(`<button id = 'btnDeleteCart' class = "btn btn__clearCart">Vaciar carrito<i class="fas fa-trash-alt cart__icon"></i></button>`)
 
-    $('#btn').on("click", deleteStorage)
+    $('#btnDeleteCart').on("click", deleteStorage)
 
+  
 } 
 
 /* This is displayed if the cart is empty */
