@@ -14,7 +14,7 @@ if (itemsInCart && itemsInCart.length > 0){
 
     for(let i=0; i < itemsInCart.length; i++){
 
-        totalPrice += itemsInCart[i].productPrice;
+        totalPrice += itemsInCart[i].productPrice * itemsInCart[i].qty;
 
         $('#cart').prepend(`<div class = "cart__border">
 
