@@ -1,10 +1,10 @@
-## Link al sitio web:
+# Link al sitio web:
 https://joshuajmelnitzky.github.io/desafios-JS/
 
 
-## Funcionalidades:
+# Funcionalidades:
 
-# Products.html
+## Products.html
 - Permite mostrar productos traidos de un archivo JSON.
 - Mostrar productos por categoría.
 - Añadir productos al carrito.
@@ -12,7 +12,7 @@ https://joshuajmelnitzky.github.io/desafios-JS/
 - Filtrar por precios, mostrando resultados en tiempo real.
 
 
-# cart.html
+## cart.html
 - Muestra un mensaje si el carrito está vacío y un botón para ir a ver los productos.
 - Si hay productos los muestra junto con su total de compra.
 - Permite eliminar items individuales.
